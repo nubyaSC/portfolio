@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap');
+body{
+    background-color: #111111;
+    font-family: 'Poppins', sans-serif;
+}
+a,
+a:visited{
+    color: inherit;
+    text-decoration: unset;
+}
+button.btn.btn-primary.filter-button.active {
+    background: #8162a7;
+    border-color: #8162a7;
+}
+.item-content {
+    overflow: hidden;
+}
+.item-content:hover img {
+    transform: scale(1.5);
+    transition: all 1s;
+}
+.filter-gallery img {
+    aspect-ratio: 16/20;
+    object-fit: cover;
+}
